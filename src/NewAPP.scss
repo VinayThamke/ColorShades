@@ -1,0 +1,26 @@
+$blueshades: aqua aquamarine cadetblue darkturquoise deepskyblue  dodgerblue lightblue navy skyblue turquoise;
+
+// loop!
+@each $color in $blueshades {
+    .#{$color} {
+        background: $color;
+    }
+}
+
+$greenshades: chartreuse darkgreen olive seagreen forestgreen lightgreen lightseagreen limegreen teal yellowgreen; 
+
+// loop!
+@each $color in $greenshades {
+    .#{$color} {
+        background: $color;
+    }
+}
+
+$redshades: coral crimson firebrick indianred lightsalmon maroon tomato orangered lightcoral salmon;
+
+// loop!
+@each $color in $redshades {
+    .#{$color} {
+        background: $color;
+    }
+}
